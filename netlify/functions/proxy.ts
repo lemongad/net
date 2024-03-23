@@ -15,7 +15,7 @@ export default async (request: Request, context: Context) => {
   }
 
   const url = new URL(request.url);
-  url.hostname = "coze-bot.hf.space";
+  url.hostname = "hanime1.me";
 
   const proxyRequest = new Request(url.toString(), {
     body: request.body,
