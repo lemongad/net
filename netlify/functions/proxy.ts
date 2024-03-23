@@ -15,7 +15,7 @@ export default async (request: Request, context: Context) => {
   }
 
   const url = new URL(request.url);
-  url.hostname = "hanime1.me";
+  url.hostname = "www.youtube.com";
 
   const proxyRequest = new Request(url.toString(), {
     body: request.body,
